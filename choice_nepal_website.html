@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Choice Nepal | Nepali Handpicked Treasures</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    .star::before {
+      content: '⭐';
+      animation: pulseStar 2s infinite;
+    }
+
+    @keyframes pulseStar {
+      0% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.2); opacity: 0.7; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-amber-100 via-rose-50 to-sky-100 min-h-screen">
+
+  <header class="bg-gradient-to-r from-pink-500 to-red-500 py-8 shadow-lg text-center">
+    <h1 class="text-5xl font-extrabold text-white drop-shadow-lg animate-pulse">🛍️ Choice Nepal</h1>
+    <p class="text-white text-lg mt-2">Bringing Handpicked Nepali Treasures to You</p>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 py-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <!-- Product Cards -->
+      <div class="bg-white rounded-2xl shadow-xl p-5 fade-in">
+        <img src="/salt-lamp.jpg" alt="Himalayan Salt Lamp" class="w-full h-48 object-cover rounded-xl mb-4" />
+        <h2 class="text-xl font-semibold text-gray-800">Himalayan Salt Lamp</h2>
+        <p class="text-gray-500 mb-2">Rs. 2200</p>
+        <p class="text-yellow-500 mb-2"><span class="star"></span> <span class="star"></span> <span class="star"></span> <span class="star"></span> <span class="star"></span></p>
+        <a href="https://wa.me/9779800000000?text=I'm interested in the Himalayan Salt Lamp for Rs. 2200" target="_blank" class="inline-block w-full text-center bg-gradient-to-r from-green-400 to-emerald-500 hover:from-green-500 hover:to-emerald-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transform hover:scale-105 transition duration-300">🛒 Order via WhatsApp</a>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-xl p-5 fade-in">
+        <img src="/felt-slippers.jpg" alt="Felt Slippers" class="w-full h-48 object-cover rounded-xl mb-4" />
+        <h2 class="text-xl font-semibold text-gray-800">Handmade Felt Slippers</h2>
+        <p class="text-gray-500 mb-2">Rs. 1450</p>
+        <p class="text-yellow-500 mb-2"><span class="star"></span> <span class="star"></span> <span class="star"></span> <span class="star"></span></p>
+        <a href="https://wa.me/9779800000000?text=I'm interested in the Felt Slippers for Rs. 1450" target="_blank" class="inline-block w-full text-center bg-gradient-to-r from-green-400 to-emerald-500 hover:from-green-500 hover:to-emerald-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transform hover:scale-105 transition duration-300">🛒 Order via WhatsApp</a>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-xl p-5 fade-in">
+        <img src="/singing-bowl.jpg" alt="Copper Singing Bowl Set" class="w-full h-48 object-cover rounded-xl mb-4" />
+        <h2 class="text-xl font-semibold text-gray-800">Copper Singing Bowl Set</h2>
+        <p class="text-gray-500 mb-2">Rs. 4800</p>
+        <p class="text-yellow-500 mb-2"><span class="star"></span> <span class="star"></span> <span class="star"></span> <span class="star"></span> <span class="star"></span></p>
+        <a href="https://wa.me/9779800000000?text=I'm interested in the Copper Singing Bowl Set for Rs. 4800" target="_blank" class="inline-block w-full text-center bg-gradient-to-r from-green-400 to-emerald-500 hover:from-green-500 hover:to-emerald-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transform hover:scale-105 transition duration-300">🛒 Order via WhatsApp</a>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-xl p-5 fade-in">
+        <img src="/lokta-wrap.jpg" alt="Lokta Gift Wrap Set" class="w-full h-48 object-cover rounded-xl mb-4" />
+        <h2 class="text-xl font-semibold text-gray-800">Premium Lokta Gift Wrap Set</h2>
+        <p class="text-gray-500 mb-2">Rs. 950</p>
+        <p class="text-yellow-500 mb-2"><span class="star"></span> <span class="star"></span> <span class="star"></span> <span class="star"></span></p>
+        <a href="https://wa.me/9779800000000?text=I'm interested in the Lokta Gift Wrap Set for Rs. 950" target="_blank" class="inline-block w-full text-center bg-gradient-to-r from-green-400 to-emerald-500 hover:from-green-500 hover:to-emerald-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transform hover:scale-105 transition duration-300">🛒 Order via WhatsApp</a>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-xl p-5 fade-in">
+        <img src="/wild-honey.jpg" alt="Wild Honey" class="w-full h-48 object-cover rounded-xl mb-4" />
+        <h2 class="text-xl font-semibold text-gray-800">Organic Wild Honey (500ml)</h2>
+        <p class="text-gray-500 mb-2">Rs. 1350</p>
+        <p class="text-yellow-500 mb-2"><span class="star"></span> <span class="star"></span> <span class="star"></span> <span class="star"></span></p>
+        <a href="https://wa.me/9779800000000?text=I'm interested in the Wild Honey for Rs. 1350" target="_blank" class="inline-block w-full text-center bg-gradient-to-r from-green-400 to-emerald-500 hover:from-green-500 hover:to-emerald-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transform hover:scale-105 transition duration-300">🛒 Order via WhatsApp</a>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-xl p-5 fade-in">
+        <img src="/wooden-temple.jpg" alt="Wooden Temple" class="w-full h-48 object-cover rounded-xl mb-4" />
+        <h2 class="text-xl font-semibold text-gray-800">Carved Wooden Temple Model</h2>
+        <p class="text-gray-500 mb-2">Rs. 6500</p>
+        <p class="text-yellow-500 mb-2"><span class="star"></span> <span class="star"></span> <span class="star"></span> <span class="star"></span> <span class="star"></span></p>
+        <a href="https://wa.me/9779800000000?text=I'm interested in the Wooden Temple for Rs. 6500" target="_blank" class="inline-block w-full text-center bg-gradient-to-r from-green-400 to-emerald-500 hover:from-green-500 hover:to-emerald-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transform hover:scale-105 transition duration-300">🛒 Order via WhatsApp</a>
+      </div>
+    </div>
+
+    <!-- Contact Us Section -->
+    <section class="mt-20 text-center border-t pt-10">
+      <h2 class="text-3xl font-semibold text-gray-800 mb-4">📞 Contact Us</h2>
+      <p class="text-gray-700 mb-2">For support or wholesale inquiries:</p>
+      <p class="text-lg">
+        📱 <a href="https://wa.me/9779800000000" class="text-green-600 font-medium underline hover:text-green-800" target="_blank">WhatsApp Chat</a><br />
+        📧 <a href="mailto:info@choicenepal.com" class="text-blue-500 underline">info@choicenepal.com</a><br />
+        📍 Kathmandu, Nepal
+      </p>
+    </section>
+  </main>
+
+  <footer class="text-center text-sm text-gray-500 py-6 mt-10">
+    &copy; 2025 Choice Nepal. All rights reserved.
+  </footer>
+
+  <script>
+    // JS: Fade in on scroll
+    const faders = document.querySelectorAll('.fade-in');
+    const appearOptions = { threshold: 0.1 };
+    const appearOnScroll = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      });
+    }, appearOptions);
+
+    faders.forEach(fader => appearOnScroll.observe(fader));
+  </script>
+
+</body>
+</html>
